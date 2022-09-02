@@ -29,5 +29,12 @@ docs/
 **basic_ALU/simulation
 *.bak
 *.qsf
-*.qws
+*.bak
 *.qpf
+*.qws
+*.rpt
+**4_shiftReg_dff/db
+**4_shiftReg_dff/incremental_db
+**4_shiftReg_dff/output_files
+**4_shiftReg_dff/simulation
+
