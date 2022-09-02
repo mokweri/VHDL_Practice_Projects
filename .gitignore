@@ -27,3 +27,6 @@ docs/
 **basic_ALU/incremental_db
 **basic_ALU/output_files
 **basic_ALU/simulation
+*.bak
+*.qsf
+*.qws
