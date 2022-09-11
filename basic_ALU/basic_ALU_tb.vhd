@@ -13,20 +13,16 @@ architecture Behavioral of basic_ALU_tb is
 		port(
 			A 		: in std_logic;
 			B 		: in std_logic;
-			c_in 	: in std_logic;
 			opcode: in std_logic_vector(2 downto 0);
-			Y		: out std_logic;
-			Status_out	: out std_logic
+			Y		: out std_logic_vector(1 downto 0)
 		);
 	end component;
 	
 	--signals
 	signal A 		: std_logic := '0';
 	signal B 		: std_logic := '0';
-	signal c_in 	: std_logic := '0';
 	signal opcode 	: std_logic_vector(2 downto 0);
-	signal Y			: std_logic := '0';
-	signal Status_out	: std_logic := '0';
+	signal Y			: std_logic_vector(1 downto 0) := "00";
 
 begin
 	-- component instantiation
@@ -34,10 +30,8 @@ ALU: basic_ALU
 	port map(
 		A => A,
 		B => B,
-		c_in => c_in,
 		opcode => opcode,
-		Y => Y,
-		Status_out => Status_out
+		Y => Y
 	);
 	
 	--stimuli
@@ -50,12 +44,10 @@ ALU: basic_ALU
 	opcode <= "111"; --mux
 	A <= '1';
 	B <= '1';
-	c_in <= '0';
 	wait for 20 ns;
 	opcode <= "111"; --mux
 	A <= '0';
 	B <= '1';
-	c_in <= '0';
 	wait for 20 ns;
 	opcode <= "000"; --no operation
 	A <= '0';
