@@ -15,7 +15,7 @@ end basic_ALU;
 architecture rtl of basic_ALU is
 
 begin
-	process(opcode,A) begin
+	process(opcode,A,B) begin
 		case opcode is
 			when "000" => --no opertaion
 				Y <= '0' & '0';

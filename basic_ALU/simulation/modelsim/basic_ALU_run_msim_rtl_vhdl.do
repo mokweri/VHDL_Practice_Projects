@@ -50,9 +50,9 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {C:/Users/Obed/Documents/Quartus/basic_ALU/basic_ALU.vhd}
+vcom -93 -work work {D:/VHDL_Practice_Projects/basic_ALU/basic_ALU.vhd}
 
-vcom -93 -work work {C:/Users/Obed/Documents/Quartus/basic_ALU/basic_ALU_tb.vhd}
+vcom -93 -work work {D:/VHDL_Practice_Projects/basic_ALU/basic_ALU_tb.vhd}
 
 vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs="+acc"  basic_ALU_tb
 

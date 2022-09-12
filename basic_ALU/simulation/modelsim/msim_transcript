@@ -820,7 +820,7 @@
 # vmap work rtl_work
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {C:/Users/Obed/Documents/Quartus/basic_ALU/basic_ALU.vhd}
+# vcom -93 -work work {D:/VHDL_Practice_Projects/basic_ALU/basic_ALU.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -828,7 +828,7 @@
 # -- Compiling entity basic_ALU
 # -- Compiling architecture rtl of basic_ALU
 # 
-# vcom -93 -work work {C:/Users/Obed/Documents/Quartus/basic_ALU/basic_ALU_tb.vhd}
+# vcom -93 -work work {D:/VHDL_Practice_Projects/basic_ALU/basic_ALU_tb.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -851,4 +851,4 @@
 # .main_pane.objects.interior.cs.body.tree
 # run -all
 # Break key hit 
-# Break in Process line__44 at C:/Users/Obed/Documents/Quartus/basic_ALU/basic_ALU_tb.vhd line 54
+# Simulation stop requested.

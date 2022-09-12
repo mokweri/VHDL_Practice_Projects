@@ -13,7 +13,8 @@ architecture behavioral of Four_shiftReg_dff_tb is
 			reset	: in std_logic;
 			clk 	: in std_logic;
 			s_in 	: in std_logic;
-			s_out	: out std_logic
+			s_out	: out std_logic;
+			reg	: buffer std_logic_vector(3 downto 0) := "0000"
 		);
 	end component;
 	
@@ -22,6 +23,7 @@ architecture behavioral of Four_shiftReg_dff_tb is
 	signal s_clk		: std_logic :='0';
 	signal serial_in 	: std_logic	:='0';
 	signal serial_out : std_logic;
+	signal s_reg		: std_logic_vector(3 downto 0) := "0000";
 	
 begin
 
@@ -32,7 +34,8 @@ u: Four_shiftRef_dff
 		reset	=> s_reset,
 		clk 	=> s_clk,
 		s_in 	=> serial_in,
-		s_out	=> serial_out
+		s_out	=> serial_out,
+		reg => s_reg
 	);
  
 --apply stomuli
@@ -54,12 +57,10 @@ end process;
 input_signal: process begin
 	wait for 60 ns;
 	serial_in <= '1';
-	--wait for 5 ns;
-	--serial_in <= '1';
-	--wait for 5 ns;
-	--serial_in <= '0';
-	--wait for 5 ns;
-	--serial_in <= '1';
+	wait for 10 ns;	
+	serial_in <= '0';
+	wait for 10 ns;	
+	serial_in <= '0';
 	wait for 10 ns;	
 	serial_in <= '0';
 	wait;

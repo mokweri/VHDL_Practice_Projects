@@ -7,7 +7,7 @@ Ealt_bidir_buf
 Z1 w1634850419
 Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z4 dC:\Users\Obed\Documents\Quartus\basic_ALU\simulation\modelsim
+Z4 dD:\VHDL_Practice_Projects\basic_ALU\simulation\modelsim
 Z5 8c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_primitives.vhd
 Z6 Fc:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_primitives.vhd
 l0
@@ -17,7 +17,7 @@ V5O^1k9:8U9Ie7Ff:V]<PH0
 Z7 OV;C;10.1d;51
 31
 !i10b 1
-Z8 !s108 1662124359.721000
+Z8 !s108 1663015111.628000
 Z9 !s90 -reportprogress|300|-93|-work|altera|c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_primitives.vhd|
 Z10 !s107 c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_primitives.vhd|
 Z11 o-93 -work altera -O0
@@ -87,7 +87,7 @@ V_ca3cBW9cX<GWRU5`H7jn0
 R7
 31
 b1
-Z23 !s108 1662124359.209000
+Z23 !s108 1663015109.269000
 Z24 !s90 -reportprogress|300|-93|-work|altera|c:/intelfpga_lite/21.1/quartus/eda/sim_lib/alt_dspbuilder_package.vhd|
 Z25 !s107 c:/intelfpga_lite/21.1/quartus/eda/sim_lib/alt_dspbuilder_package.vhd|
 R11
@@ -408,7 +408,7 @@ VohRc:zgCI@ARcKaKLF[WM1
 R7
 31
 b1
-Z55 !s108 1662124359.352000
+Z55 !s108 1663015110.121000
 Z56 !s90 -reportprogress|300|-93|-work|altera|c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_europa_support_lib.vhd|
 Z57 !s107 c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_europa_support_lib.vhd|
 R11
@@ -450,7 +450,7 @@ L47
 V6?@[D4@WGhNe7Wo;IDioR2
 R7
 31
-Z64 !s108 1662124359.549000
+Z64 !s108 1663015110.991000
 Z65 !s90 -reportprogress|300|-93|-work|altera|c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_primitives_components.vhd|
 Z66 !s107 c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_primitives_components.vhd|
 R11
@@ -468,7 +468,7 @@ VUM2;cMooGD=99`>G=IhDE2
 R7
 31
 b1
-Z69 !s108 1662124359.082000
+Z69 !s108 1663015108.527000
 Z70 !s90 -reportprogress|300|-93|-work|altera|c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_standard_functions.vhd|
 Z71 !s107 c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_standard_functions.vhd|
 R11
@@ -504,7 +504,7 @@ R11
 R12
 !s100 K=hPNcf947Dgbh73MmLjz1
 !i10b 1
-!s108 1662124358.950000
+!s108 1663015108.161000
 !s90 -reportprogress|300|-93|-work|altera|c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_syn_attributes.vhd|
 !s107 c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_syn_attributes.vhd|
 Ecarry

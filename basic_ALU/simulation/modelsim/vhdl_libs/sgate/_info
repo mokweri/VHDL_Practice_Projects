@@ -7,7 +7,7 @@ Eio_buf_opdrn
 Z1 w1634873065
 Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z4 dC:\Users\Obed\Documents\Quartus\basic_ALU\simulation\modelsim
+Z4 dD:\VHDL_Practice_Projects\basic_ALU\simulation\modelsim
 Z5 8c:/intelfpga_lite/21.1/quartus/eda/sim_lib/sgate.vhd
 Z6 Fc:/intelfpga_lite/21.1/quartus/eda/sim_lib/sgate.vhd
 l0
@@ -17,7 +17,7 @@ V92z6ITda63=[o8109AK_>2
 Z7 OV;C;10.1d;51
 31
 !i10b 1
-Z8 !s108 1662124363.429000
+Z8 !s108 1663015137.857000
 Z9 !s90 -reportprogress|300|-93|-work|sgate|c:/intelfpga_lite/21.1/quartus/eda/sim_lib/sgate.vhd|
 Z10 !s107 c:/intelfpga_lite/21.1/quartus/eda/sim_lib/sgate.vhd|
 Z11 o-93 -work sgate -O0
@@ -723,7 +723,7 @@ VO=BS;3d:@^JY6HnH1K`Rk3
 R7
 31
 b1
-Z77 !s108 1662124363.285000
+Z77 !s108 1663015137.656000
 Z78 !s90 -reportprogress|300|-93|-work|sgate|c:/intelfpga_lite/21.1/quartus/eda/sim_lib/sgate_pack.vhd|
 Z79 !s107 c:/intelfpga_lite/21.1/quartus/eda/sim_lib/sgate_pack.vhd|
 R11
