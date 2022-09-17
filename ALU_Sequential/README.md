@@ -3,9 +3,9 @@
 This is a basic Arithmetic Logic Unit(ALU) implementation;
 
 * Performs basic single-bit operations like;
-* *Half and Full Addition
-* *AND operation
-* *OR operation
-* *Encoding
-* *Multiplexing
-* *Subtraction
+1. Half and Full Addition
+1. AND operation
+1. OR operation
+1. Encoding
+1. Multiplexing
+1. Subtraction
