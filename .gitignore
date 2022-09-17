@@ -42,3 +42,15 @@ docs/
 **4_shiftReg_dff/output_files
 **4_shiftReg_dff/simulation
 
+**ALU_Sequential/db
+**ALU_Sequential/incremental_db
+**ALU_Sequential/output_files
+**ALU_Sequential/simulation
+
+**upCounter_4b/db
+**upCounter_4b/incremental_db
+**upCounter_4b/output_files
+**upCounter_4b/simulation
+
+*.psm
+upCounter_4b/simulation/modelsim/vhdl_libs/altera/alt_bidir_buf/_primary.dbs
