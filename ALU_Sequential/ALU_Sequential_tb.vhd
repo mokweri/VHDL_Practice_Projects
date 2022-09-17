@@ -24,7 +24,7 @@ architecture Behavioral of ALU_Sequential_tb is
 	signal A 		: std_logic := '0';
 	signal B 		: std_logic := '0';
 	signal opcode 	: std_logic_vector(2 downto 0);
-	signal Y			: std_logic_vector(1 downto 0) := "00";
+	signal Y			: std_logic_vector(1 downto 0);--dont initialize
 
 begin
 	-- component instantiation
